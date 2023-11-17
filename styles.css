@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: #fff;  
+    height: 68px;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    height: 48px;
+    font-size: 15px;
+    font-weight: 550;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 16px;
+    background-color: white;
+    top: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    height: 100%;
+    padding: 0 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Inicio{
+    background-color: black;
+    color: white;
+    border-radius: 35px;
+}
+ 
+  
+ 
+  
+  nav a {
+    color: #090909;
+    text-decoration: none;
+  }
+  #finder{
+    height: 100%;
+    width: 80%;
+    padding: 0 10px 0 10px;
+    font-size: 16px;
+    border-radius: 15px;
+    border: 1px solid transparent;
+    background-color: #E9E9E9;
+    color: rgb(51, 51, 51);
+    text-align: left;
+  }
+  .derecha{
+    text-decoration: none;
+    color: black;
+    height: 100%;
+    padding: 0 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  /*Cards*/
+  .card-image{
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+    
+  }
+   .content{
+    position: relative;
+    padding: 0px 44px;
+    top: 76px;
+    columns: 5;
+    column-gap: 40px;
+  }
+  img {
+   position: relative;
+   max-width: 100%;
+   border-radius: 16px;
+   margin-bottom: 0.2em;
+  }
+ 
+ 
+  
+.options{
+    position: absolute;
+    height: 98%;
+    width: 100%;
+    top: 0px;
+    background-color: rgb(0 0 0 / 69%);
+    opacity: 1;
+    border-radius: 16px;
+    cursor: zoom-in;
+    transition: .1ms;
+
+}
+.card-image:hover.options{
+    opacity: 0;
+}
+.save{
+    position: absolute;
+    position: absolute;
+    right: 13px;
+    bottom: 256px;
+    background-color: #E60023;
+    color: white;
+    border: none;
+    height: 48px;
+    width: 80px;
+    border-radius: 35px;
+    cursor: pointer;
+}
+.more-options{
+    position: absolute;
+    top: 276px;
+    right: 23px;
+}
+.share{
+    border-radius: 42px;
+    background-color: #ffffffeb;
+    padding: 4px;
+    cursor: pointer;
+}
+.optns{
+    border-radius: 10px;
+    width: 31px;
+    height: 37px;
+    cursor:pointer;
+}
+
+
+
+
+
+
+
+  
+  
+  
+
+   
+ 
